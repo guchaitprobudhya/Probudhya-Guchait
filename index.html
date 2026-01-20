@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Probudhya Guchait | Sports Media Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              charcoal: '#0F0F0F',
+              offwhite: '#F5F5F7',
+              electricGreen: '#CCFF00',
+              richMaroon: '#800000',
+              deepGray: '#1A1A1A',
+            },
+            fontFamily: {
+              sans: ['Montserrat', 'sans-serif'],
+              headline: ['Anton', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #0F0F0F;
+        color: #F5F5F7;
+        scroll-behavior: smooth;
+      }
+      .selection-green::selection {
+        background-color: #CCFF00;
+        color: #0F0F0F;
+      }
+      .text-outline {
+        -webkit-text-stroke: 1px rgba(245, 245, 247, 0.3);
+        color: transparent;
+      }
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 4px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: #0F0F0F;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #CCFF00;
+        border-radius: 2px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+</head>
+  <body class="selection-green custom-scrollbar">
+    <div id="root"></div>
+  </body>
+</html>
